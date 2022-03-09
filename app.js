@@ -156,6 +156,6 @@ app.use((err, req, res, next) => {
 });
 
 const port = process.env.PORT || 3000
-app.listen(, () => {
+app.listen(port, () => {
   console.log(`SEVER RUNNING ON PORT: ${port}`);
 });
